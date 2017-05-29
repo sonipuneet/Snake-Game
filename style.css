@@ -1,5 +1,5 @@
 body{
-    background: #000000 url(background.jpg) no-repeat top center;
+    background:  url() no-repeat top center;
 	font-family:arial;
 }
 
@@ -10,7 +10,7 @@ a{
 
 canvas{
 	background:#000000;
-	border:4px #ffffff solid;
+	border:10px #ffffff solid;
 }
 
 .container{
