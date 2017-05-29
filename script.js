@@ -124,7 +124,7 @@
     //Lets first create a generic function to paint cells
     function paint_cell(x, y)
     {
-    ctx.fillStyle = "blue";
+    ctx.fillStyle = "green";
     ctx.fillRect(x*cw, y*cw, cw, cw);
     ctx.strokeStyle = "white";
     ctx.strokeRect(x*cw, y*cw, cw, cw);
@@ -152,11 +152,4 @@
     else if(key == "40" && d != "up") d = "down";
     //The snake is now keyboard controllable
     })
-
-
-
-
-
-
-
    })

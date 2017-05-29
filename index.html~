@@ -5,20 +5,17 @@
     <meta charset="utf-8" />
     <title>Snake Game</title>
     <!--<link rel="stylesheet" type="text/css" href=".css"> -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.min.js"></script>
-   
+    <link rel="stylesheet" type="text/css" href="css/bootsrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootsrap.min.css">
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
     
     <!-- Jquery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="script.js" type="text/javascript"></script>
 </head>
-<body style="background-color:#162D4D">
-    <div class="container">
-        <div class = "jumbotron text-center">
-        <h2> Snake Game </h2>
+<body>
+    <div class="container " >
         <!--<div id="overlay">
              FINAL SCORE: <span id="final_score"></span> 
             <br>
@@ -30,13 +27,11 @@
     Sorry, This Browser does not support canvas element.
     </canvas>
 
-        <a class="btn btn-success" onClick="window.location.reload()" href="#">Click To Play Again</a>
    <!-- <div id="stats">
              <div class="score"></div>
              <div class="score"></div>
              <button onClick="resetScore()" id="reset_score">Reset High Score</button>
         </div> -->
-        </div>
     </div>    
     
     
